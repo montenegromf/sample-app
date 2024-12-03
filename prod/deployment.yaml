@@ -13,7 +13,7 @@ spec:
         app: production-app
     spec:
       containers:
-      - name: production-container
-        image: us-central1-docker.pkg.dev/qwiklabs-gcp-02-a452b058a2d8/my-repository/hello-cloudbuild:v1.0
+      - name: production-container 
+        image: us-central1-docker.pkg.dev/qwiklabs-gcp-02-a452b058a2d8/my-repository/hello-cloudbuild:v2.0
         ports:
         - containerPort: 8080
